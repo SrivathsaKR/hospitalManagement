@@ -1,0 +1,105 @@
+body{
+margin-top: 0px;
+padding-top: 0px;
+
+}
+#content{
+margin-left: auto;
+margin-right: auto;
+/* background: #E8E8E8; */
+background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_209933.png");
+width: 1200px;
+}
+#header {
+width: 1200px;
+height: 96px;
+text-align: center;
+background: transparent;
+background-image: url("http://besthdwallpaper.co/wp-content/uploads/2018/05/aero-abstract-background-blue-4k-hd-desktop-wallpaper-for.jpg");
+/* border-bottom: solid 3px blue; */
+}
+#header h1{
+margin: 0px;
+padding-top: 5px;
+text-align: center;
+margin-left: 50px;
+color: #fff;
+}
+#header  img {float:left; height: 90px; width: 150px;}
+#left_column {
+clear: all;
+float: left;
+width: 200px;
+height: 501px;
+background:transparent;
+background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_209933.png");
+
+
+}
+
+#main {
+clear: all;
+width: 780px;
+height: 470px;
+/* background: #E8E8E8; */
+background: transparent;
+background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_209933.png");
+
+}
+
+/*Vertical Menu*/
+#button {
+width: 12.5em;
+
+padding: 0 0 1em 0;
+margin-top: 0.2em;
+margin-bottom: 1em;
+/* background-image:url("") */
+font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-serif;
+
+background: rgb(162, 167, 218);
+color: #333;
+}
+#button ul{
+list-style: none;
+margin: 0; 
+padding: 0;
+border: none;
+}
+#button li{
+border-bottom: 3px solid rgb(26, 26, 51);
+margin: 0;
+list-style: none;
+list-style-image: none;
+}
+#button li a{
+display: block;
+padding: 5px 5px 5px 0.5em;
+border-left: 10px solid #252342;
+border-right: 10px solid #1e1f47;
+background-color: #8caac2;
+color: rgb(48, 38, 83);
+text-decoration: none;
+width: 100%;
+}
+html>body #button li a{
+width: auto;
+
+
+}
+#button li a:hover {
+border-left: 10px solid #1c64d1;
+border-left: 10px solid #56a3e0;
+background-color: #86acca;
+color: #fff;
+}
+
+#footer{
+width: 1200px;
+height: 110px;
+background-image: url("https://i.pinimg.com/originals/c5/c3/36/c5c33630a4a2be69d4d1119ac4c9b9f3.jpg");
+
+/* clear: all; */
+/* border-top: solid 2px blue; */
+}
+

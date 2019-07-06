@@ -1,0 +1,21 @@
+WITH A AS (SELECT cus_id_fk,dr_id_fk,SUM(cost)'S1'
+      FROM invoice_entry,drug 
+      WHERE dr_id_fk=drug_id
+      GROUP BY cus_id_fk,dr_id_fk)
+SELECT cus_id_fk,SUM(S1)
+FROM A
+WHERE cus_id_fk=ID
+GROUP BY cus_id_fk;
+
+
+
+(SELECT cus_id_fk,dr_id_fk,SUM(cost)'S1'
+      FROM invoice_entry,drug 
+      WHERE dr_id_fk=drug_id
+      GROUP BY cus_id_fk,
+      
+
+      SELECT cus_id_fk,SUM(qty*cost) AS S1
+      FROM invoice_entry,drug 
+      WHERE dr_id_fk=drug_id
+      GROUP BY cus_id_fk
